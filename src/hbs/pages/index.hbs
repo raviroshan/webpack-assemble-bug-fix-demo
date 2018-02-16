@@ -1,0 +1,16 @@
+---
+    title: Home
+    layout: default.hbs
+---
+<ul >
+    {{#each  pages }}
+        <li > <a  href ="{{this.basename }}.html" > {{this.basename }} </a > </li >
+    {{/each  }}
+</ul >
+<h1>{{ uppercase  headline }}</h1>
+<ul >
+    {{#eachIndex  list }}
+        <li > {{this.item}} is {{index}} </li >
+    {{/eachIndex }}
+</ul >
+<script src="bundle.js"></script>
