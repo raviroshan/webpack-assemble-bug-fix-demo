@@ -1,3 +1,4 @@
 webpack-assemble-demo.sublime-workspace
 webpack-assemble-demo.sublime-project
 build/
+node_modules/
