@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Boilerplate for webpack 3",
   "main": "index.js",
+  "script": {
+    "build": "webpack"
+  },
   "dependencies": {},
   "devDependencies": {
     "assemble": "^0.24.3",
